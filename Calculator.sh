@@ -2,7 +2,8 @@
 
 read -p "Enter the first number, the second number and a sign (+,-,*,/) separated by a space: " numb1 numb2 sign
 
-if [[ -z $numb1 || -z $numb2 || -z $sign ]]; then
+if [[ -z $numb1 || -z $numb2 || -z $sign ]] 
+then
     echo "You haven't entered 3 inputs, please try again."
     exit 1
 fi
