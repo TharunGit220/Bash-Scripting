@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get the used memory in gigabytes
-used_memory_gb=$(free -thg | grep Mem | awk '{print $3}' | tr -d Gi)
+used_memory_gb=$(free -mt | grep Mem | awk '{print $3}' | tr -d Gi)
 
 # Round the used memory to the nearest whole number
 rounded_used_memory_gb=$(printf "%.0f" $used_memory_gb)
