@@ -64,7 +64,7 @@ Features:
 
  Project 5 UserManagement:
  -------------------------
- This Bash script is intended to automate the creation of a new user account on any  OS-based system. 
+ This Bash script is intended to automate the creation of a new user account on Linux OS-based system. 
 
  Features:
 1) The script checks if it is being run by the root user. If not, it exits with an appropriate message. This ensures that the script has the necessary permissions to create new user accounts and modify system settings.
