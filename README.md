@@ -2,7 +2,8 @@
 Bash Projects
 
 
-Project 1 Clock: 
+Project 1 Clock:
+---------------
 
 I've developed a simple Bash script to display the current time in a continuous loop, with the flexibility to customize the color of the clock.
 
@@ -12,6 +13,7 @@ Features:
 2) Real-Time Update: The script continuously updates the current time every second, providing a real-time clock display.
 
 Project 2 Calculator: 
+-----------------------
 
 I've created a Bash script that performs basic arithmetic operations (+, -, *, /) based on user input and handles various edge cases to ensure robustness and accuracy.
 
@@ -31,7 +33,7 @@ Division: Checks for zero to avoid division by zero and divides the larger numbe
 
 
 Project 3 RamSpace: 
-
+-----------------------
 This script is designed to monitor the memory usage of a system and send an email alert to a user when the memory usage exceeds a specified threshold. 
 
 Features:
@@ -43,7 +45,7 @@ Features:
 3) If the memory usage exceeds the threshold (7 GB), the script sends an automated email to the user with a warning message and the current memory usage details.
 
 Project 4 ArchiveOldFiles:
-
+--------------------------
 This Bash script is designed to identify, compress, and move files larger than 20KB from a specified directory to an archive folder within the same directory.
 
 Features:
@@ -61,6 +63,7 @@ Features:
 
 
  Project 5 UserManagement:
+ -------------------------
  This Bash script is intended to automate the creation of a new user account on any  OS-based system. 
 
  Features:
